@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 # Directory , where the backup files will be saved
 backup_dir="$HOME/backups"
