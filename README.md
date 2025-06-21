@@ -19,4 +19,12 @@ This repository contains practical Bash scripting and Linux sysadmin projects I 
 - Logs all actions with timestamps to `~/UserAccountLogs.log` in the invoking user’s home directory.
 - Must be run with `sudo` to have the necessary permissions.
 
+### 3. SystemResourceMonitor
+- Monitors **CPU**, **RAM**, and **Disk** usage in real time.
+- Logs usage information to `resource_usage.log` with timestamps.
+- Displays color-coded terminal output for easy status recognition.
+- Alerts when any resource exceeds **80%** usage.
+- Uses `mpstat`, `free`, and `df` for accurate system insights.
+- Can be scheduled with `cron` for automated monitoring.
+
 More coming soon!
