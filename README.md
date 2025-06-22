@@ -27,4 +27,16 @@ This repository contains practical Bash scripting and Linux sysadmin projects I 
 - Uses `mpstat`, `free`, and `df` for accurate system insights.
 - Can be scheduled with `cron` for automated monitoring.
 
+### 4. NetworkConfigChecker
+- Checks and logs key Linux network configuration details.
+- Displays:
+  - Active network interface
+  - IP address and default gateway
+  - DNS servers (cleans up IPv6 scope suffixes)
+  - Internet connectivity status
+  - Active network manager (e.g., `systemd-networkd` or `NetworkManager`)
+- Warns if both network managers are active (conflict).
+- Logs output to `network_report.log` with timestamps.
+- Suitable for quick diagnostics or scheduled logging via `cron`.
+
 More coming soon!
